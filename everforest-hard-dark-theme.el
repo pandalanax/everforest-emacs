@@ -1,3 +1,5 @@
+;;; everforest-hard-dark.el -*- lexical-binding: t; -*-
+
 ;;; everforest-hard-dark-theme.el --- Everforest Hard Dark Theme -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2022-2024 theorytoe
@@ -787,6 +789,11 @@
    ;; ansi-color
    `(ansi-color-names-vector
      [,everforest-hard-dark-black ,everforest-hard-dark-red ,everforest-hard-dark-green ,everforest-hard-dark-yellow
+				  ,everforest-hard-dark-blue ,everforest-hard-dark-purple ,everforest-hard-dark-cyan ,everforest-hard-dark-fg])
+   `(vterm-color-palette
+     [,everforest-hard-dark-black ,everforest-hard-dark-red ,everforest-hard-dark-green ,everforest-hard-dark-yellow
+				  ,everforest-hard-dark-blue ,everforest-hard-dark-purple ,everforest-hard-dark-cyan ,everforest-hard-dark-fg
+          "#7A8478" ,everforest-hard-dark-red ,everforest-hard-dark-green ,everforest-hard-dark-yellow
 				  ,everforest-hard-dark-blue ,everforest-hard-dark-purple ,everforest-hard-dark-cyan ,everforest-hard-dark-fg])))
 
 ;;;###autoload
@@ -803,3 +810,4 @@
 ;; no-byte-compile: t
 ;; End:
 ;;; everforest-hard-dark-theme.el ends here
+
